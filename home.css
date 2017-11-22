@@ -1,0 +1,229 @@
+		    .hl
+	        {
+	            width: 1350px;
+				height: 927px;
+				border:0px double red; 
+				margin:auto; 
+			    background-image: url('/E-Diagnostics/images/images.jpg');
+			    background-repeat:no-repeat;
+			    background-size:100% 100%;
+	        } 
+	        
+	        .banner
+			{ 
+				width: 1350px;
+				height: 70px; 
+			    margin-top: 1px;
+			    background-image: url('/E-Diagnostics/images/footer.jpg');
+			    background-size: 100% 100%;
+			    border: 2px double white;
+			}
+			
+			.fbanner
+			{
+				width: 270px; 
+				height: 52px;
+				margin-top: 5px;
+		 		background: transparent; 
+				background-image: url('/E-Diagnostics/images/logo.png'); 
+			    border-radius: 40px 40px 0px 0px; 
+		    	background-size: 100% 100%;
+		 	    background-repeat:no-repeat;
+		 	    border: 0px double black;
+			}
+			
+			.footer
+			{
+				width: 1350px;
+				border:0px double black; 
+				height:115px; 
+				background-image: url('/E-Diagnostics/images/ftrr.png'); 
+				background-size: 100% 100%;
+				background-repeat:no-repeat;  
+				margin-top: 0px; 
+				float:left;
+			}
+			
+			body,html
+			
+		    {
+  				height: 100%;
+  				background-repeat: no-repeat;
+   			 /* background-image: linear-gradient(rgb(104, 145, 152), rgb(19, 17, 13)); */
+			}
+			
+			.mega-dropdown
+ 			{
+  				position: static !important;
+ 			}
+ 			
+ 			#Reg-dp
+ 			{
+ 				min-width: 100px;
+   				min-height:100px;
+			}
+			  
+			.p
+			{
+			    color: black; 
+			    font-family: Times of Roman;
+			    padding-top:10px;
+			   	margin-left:20px;
+			    font-size:14px;     
+			}
+			      
+			.pp
+			{
+			    color: black; 
+			    font-family: Times of Roman;
+			    margin-top:40px;
+			    margin-left:90px;
+			    font-size:17px;
+			}
+			
+			.container
+			{
+				width:1000px; 	
+				height:450px;
+				border:0px double white;
+				margin-top:22px;
+			}
+			
+			.min
+			{
+				width:1348px;
+				height:35;
+				background-color: rgba(0,0,0,0.55);
+				background-repeat:no-repeat; 
+				float:right;
+			}
+			
+			.navii
+			{
+				font-size:17px; 
+				font-family:Times New Roman; 
+				color:white;
+				padding-right: 20px;
+			}
+			
+			.srch
+			{
+				font-size:17px; 
+				font-family:Times New Roman; 
+				color:white;
+				padding-right: 30px; 
+				float:right;
+			}
+
+			.dropdown 
+			{
+    			position: relative;
+    			display: inline-block;
+			}
+
+			.dropdown-content 
+			{
+    			display: none;
+    			position: absolute;
+    			right: 0;
+    			background-color: #f9f9f9;
+    			min-width: 180px;
+    			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.55);
+    			z-index: 1;
+			}
+
+			.dropdown-content a 
+			{
+    			color: black;
+    			padding: 12px 16px;
+    			text-decoration: none;
+    			display: block;
+			}
+
+			.dropdown-content a:hover 
+			{
+				background-color: #f1f1f1
+			}
+
+			.dropdown:hover .dropdown-content 
+			{
+    			display: block;
+			}
+
+			.dropdown:hover .dropbtn 
+			{
+    			background-color: #3e8e41;
+			}
+			
+			.lowdiv
+			{
+				width:323px; 
+				height: 180px; 
+				background-image: url('/E-Diagnostics/images/xxz.jpg');
+				background-repeat:no-repeat; 
+				background-size: 100% 100%;
+				float:left;
+			}
+			.navee
+			{
+				font-size:22px; 
+				font-family:Times New Roman; 
+				color:black;
+				padding-right: 30px;
+			}
+
+			.glyphicon { margin-right:5px; font-size:15px;}
+			
+			.dropup
+			{
+			  	width: 200px; 
+			  	height: 40px; 
+			  	background:transparent;
+			  	float:left; 	
+			  	margin-top:38px;
+			}
+			
+			/* Popup container - can be anything you want */
+.popup
+ {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext 
+{
+    visibility: hidden;
+    width:200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 45%;
+    left: 50%;
+    margin-left: -95px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after 
+{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -70px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show 
+{
+    visibility: visible;
+    animation: fadeIn 1s;
+}
